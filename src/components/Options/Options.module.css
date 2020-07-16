@@ -1,0 +1,48 @@
+.main{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3%;
+}
+
+.options{
+    background-color: #573f4c;
+    border-radius: 50%;
+    color:#f8f4fb;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    padding: 0 2rem;
+}
+.option{
+    display: block;
+    text-align: center;
+    font-size: medium;
+    text-align: center;
+}
+.who{
+    display: flex;
+    height: 300px;
+    background-color: #e4c3d1;
+    width: 100%;
+    flex:1;
+}
+.whoimg{
+    width: 50%;
+    background-image: none;
+}
+.whocontent{
+    width: 50%;
+    display: block;
+   width: 60%;
+   color:#933469;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4%;
+}
